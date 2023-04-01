@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Pie de pagina</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0" />
+    <link rel="stylesheet" href="css/style.css">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/carrito.js"></script>
+    <script src="js/comprar.js"></script>
+    <script src="js/templates.js"></script>
+    <script src="js/domCheckout.js" defer></script>
+    <title>Libreria pie de pagina</title>
+</head>
+
+<body>
+    <header class="cabecera">
+        <h3>Visualizar carrito</h3>
+        <h4>Checkout</h4>
+    </header>
+    <div class="container2">
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Cantidad</th>
+                    <th>Quitar</th>
+                    <th>Precio unitario</th>
+                </tr>
+            </thead>
+            <tbody id="tablaCarrito" class="datos">
+            </tbody>
+        </table>
+    </div>
+    <div class="importe">
+        <p id="ImporteTotal">Total: </p>
+    </div>
+    <div class="checkButtons">
+        <a href="index.html">Volver</a>
+        <button id="confirmarCompra">Confimar compra</button>
+    </div>
+    <footer class="pie">
+        <ul>
+            <li>Ecommerce realizado por Carolina Ojcius</li>
+        </ul>
+    </footer>
+</body>
+
+</html>

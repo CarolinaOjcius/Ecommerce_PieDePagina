@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "nombre": "EDGAR ALLAN POE CUENTOS SELECTOS",
+        "autor":"Edgar Allan Poe",
+        "imagen": "/images/poe.png",
+        "precio": 3500.00
+    },{
+        "id": 2,
+        "nombre": "LA LLAMADA DEL CTHULHU Y OTROS CUENTOS DE TERROR",
+        "autor":"Lovecraft H.P",
+        "imagen": "/images/lovecraft.png",
+        "precio": 5050.00 
+    },{
+        "id": 3,
+        "nombre": "EL EXTRAÑO CASO DEL DOCTOR JEKYLL Y EL SEÑOR HYDE",
+        "autor":"Stevenson Robert Louis",
+        "imagen": "/images/stevenson.png",
+        "precio": 3840.00
+    },{
+        "id": 4,
+        "nombre": "FRANKENSTEIN",
+        "autor":"Shelley Mary W",
+        "imagen": "/images/shelley.png",
+        "precio": 3500.00
+    },{
+        "id": 5,
+        "nombre": "EL HORLA Y OTROS CUENTOS DE LOCURA Y HORROR",
+        "autor":"De Maupassant Guy",
+        "imagen": "/images/guy.png",
+        "precio": 4990.00
+    },{
+        "id": 6,
+        "nombre": "CUENTOS DE AMOR LOCURA Y MUERTE",
+        "autor":"Quiroga Horacio",
+        "imagen": "/images/quiroga.png",
+        "precio": 1000.00
+    },{
+        "id": 7,
+        "nombre": "FAHRENHEIT 451",
+        "autor":"Bradbury Ray",
+        "imagen": "/images/bradbury.png",
+        "precio": 3149.00
+    },{
+        "id": 8,
+        "nombre": "UN MUNDO FELIZ",
+        "autor":"Huxley Aldous",
+        "imagen":"/images/huxley.png",
+        "precio": 3149.00
+    },{
+        "id": 9,
+        "nombre": "MADAME BOVARY",
+        "autor":"Flaubert Gustave",
+        "imagen": "/images/flaubert.png",
+        "precio": 3600.00
+    },{
+        "id": 10,
+        "nombre": "EL FANTASMA DE LA OPERA",
+        "autor":"Leroux Gaston",
+        "imagen": "/images/leroux.png",
+        "precio": 3420.00
+    },{
+        "id": 11,
+        "nombre": "REBELION EN LA GRANJA",
+        "autor":"Orwell George",
+        "imagen": "/images/orwell.png",
+        "precio": 2099.00
+    },{
+        "id": 12,
+        "nombre": "CUMBRES BORRASCOSAS",
+        "autor":"Bronte Emily",
+        "imagen": "/images/bronte.png",
+        "precio": 2947.00
+    },{
+        "id": 13,
+        "nombre": "JANE EYRE",
+        "autor":"Bronte Charlotte",
+        "imagen": "/images/bronteC.png",
+        "precio": 5771.00
+    },{
+        "id": 14,
+        "nombre": "ORGULLO Y PREJUICIO",
+        "autor":"Austen Jane",
+        "imagen": "/images/austen.png",
+        "precio": 2000.00
+    },{
+        "id": 15,
+        "nombre": "ESTUDIO EN ESCARLATA",
+        "autor":"Conan Doyle Arthur",
+        "imagen": "/images/conan.png",
+        "precio": 5900.00
+    }]

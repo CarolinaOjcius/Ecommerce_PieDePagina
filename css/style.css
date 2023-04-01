@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic");
+
+
+body {
+    margin: 0%;
+    background-color: rgb(163, 21, 99);
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+    /*padding:20px 0px 0px;*/
+}
+
+h3,
+h4 {
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid black;
+    background-color: white;
+    box-shadow: 5px 5px 5px rgb(96, 12, 58);
+    text-align: center;
+}
+
+table {
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+th {
+    /*background-color:rgb(96, 12, 58);*/
+    background-color: rgb(237, 165, 11);
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    width: 300px;
+    padding: auto;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 40px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+
+
+.titulo {
+    font-family: 'Sacramento', cursive;
+    color: black;
+    font-size: x-large;
+    font-weight: 700;
+    font-style: oblique;
+
+}
+
+.menu {
+    width: 100%;
+    box-shadow: 5px 5px 5px rgb(96, 12, 58);
+    margin-bottom: 40px;
+    background-color: white;
+
+}
+
+.menu ul {
+    width: 100%;
+    list-style: none;
+    display: inline-flex;
+    justify-content: space-around;
+    margin: 0%;
+
+}
+
+.menu ul li {
+    padding-top: 20px;
+    padding-bottom: 0px;
+}
+
+.menu a {
+    color: black;
+    padding-top: 20px;
+}
+
+.menu .icon {
+    width: 30px;
+    height: auto;
+}
+
+
+
+.container {
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container2 {
+    gap: 30px;
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 5px 5px 5px rgb(96, 12, 58);
+    border: 1px solid rgba(211, 211, 211, 0.384);
+    /*border: 1px solid rgba(0, 0, 0, 0.384);*/
+    border-radius: 0px 0px 4px 4px;
+    width: 190px;
+    height: 400px;
+    padding: 10px;
+    background-color: white;
+
+}
+
+.card-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 260px;
+}
+
+.card .card-name {
+    margin-top: 10%;
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    font-size: 11px;
+    font-weight: 1000;
+    height: 10px;
+}
+
+
+.card-options {
+    padding-top: 10%;
+}
+
+.card .card-price {
+    display: inline-block;
+    padding-top: 10%;
+}
+
+.card .card-button {
+    text-align: right;
+    display: inline-block;
+    margin-left: 20px;
+    border: 2px solid;
+
+
+
+}
+
+.button.button-outline:hover {
+    transition: .5s ease-in-out;
+    background-color: rgb(237, 165, 11);
+
+    /* color: #9b4dca; */
+}
+
+
+.cabecera {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.button.button-outline,
+button.button-outline {
+    border-color: rgb(96, 12, 58);
+    color: rgb(96, 12, 58);
+}
+
+.checkButtons {
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.checkButtons a {
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+
+.checkButtons button {
+    /* background-color:rgb(96, 12, 58);*/
+    background-color: rgb(237, 165, 11);
+    text-shadow: 1px 1px 2px black;
+    border: none;
+
+}
+
+
+
+.checkButtons button:hover {
+    transition: .5s ease-in-out;
+    background-color: rgb(96, 12, 58);
+
+}
+
+
+
+.pie {
+    margin-top: 25%;
+}
+
+.importe {
+    text-align: right;
+    margin-right: 25%;
+    color: white;
+    position: relative;
+
+}
+
+.swal2-styled.swal2-confirm {
+    border-color: white 1px;
+    background-color: rgb(96, 12, 58) !important;
+
+}
+
+.swal2-styled.swal2-cancel {
+    border-color: white 1px;
+    background-color: black !important;
+}
+
+.eliminar {
+    background-color: rgb(96, 12, 58) !important;
+}
+
+.eliminar:hover {
+    transition: .5s ease-in-out;
+    background-color: rgb(237, 165, 11)!important;
+}
+
+@media screen and (width <=420px) {
+
+
+    table {
+        margin: 0 auto;
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+
+
+    .importe {
+        text-align: right;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (width <=767px) {
+    .form-checkout {
+        padding: 10px;
+        width: 100%;
+    }
+
+    table {
+        margin: 0 auto;
+        width: 100% !important;
+        margin-bottom: 40px;
+    }
+
+
+    .importe {
+        text-align: right;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (width >=768px) {
+    div.form-checkout {
+        padding: 30px;
+        max-width: 800px;
+    }
+
+    table {
+        margin: 0 auto;
+        max-width: 800px;
+        margin-bottom: 30px;
+    }
+}
